@@ -1,1 +1,2 @@
+The idea here is to find the place in which the elements is going to be placed after rotation. Since array is treated as circular tape so after we reach last index i.e size of array then we have to go to 0 index to do so we can use modular operator. Since after adding the rotation number to index position we do modular division to get its final position
 ​
