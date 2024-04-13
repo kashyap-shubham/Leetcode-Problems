@@ -1,0 +1,1 @@
+the idea is to find one such pair where previous element is greater than next element. this can happen only once if array is sorted and rotated also check for last and first element to verify it is sorted or not
