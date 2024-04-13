@@ -1,21 +1,33 @@
+
 class Solution {
+    
 public:
     void rotate(vector<int>& nums, int k) {
-
-        int array_size = size(nums);
-        vector<int> new_array(array_size);
-        int new_loc;
         
-        for(int i=0; i < array_size; i++) {
-            new_loc = (i+k) % array_size;
-            new_array[new_loc] = nums[i];
-        }
-
-        for(int i =0; i< array_size; i++) {
-            nums[i] = new_array[i];
-
-        }
+        k = k%nums.size();
+        int *start, *end;
+        start = &nums[0];
+        end = &nums[nums.size()-1];
+        int size = nums.size();
         
+        reverse(start, start + (size - k-1));
+        reverse(start + (size - k), end);
+        reverse(start, end);
+    }
+    
+    
+public: 
+    void reverse(int *start, int *end) {
+        
+        int temp;
+        
+        while(start <= end) {
+            temp =  *start;
+            *start = *end;
+            *end = temp;
+            start++;
+            end--;
+        }
         
     }
 };
