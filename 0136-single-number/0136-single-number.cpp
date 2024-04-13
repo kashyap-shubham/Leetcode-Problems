@@ -5,5 +5,5 @@ public:
 	   for(auto x:nums)
 	   ans^=x;
 	   return ans;
-    }
+    } 
 };
