@@ -28,6 +28,5 @@ public:
             start++;
             end--;
         }
-        
     }
 };
