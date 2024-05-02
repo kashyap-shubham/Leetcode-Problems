@@ -8,21 +8,37 @@ public:
         
 //         approach 3 ->
         
-        int count = 0;
-        int res;
-        for(int i =0; i< nums.size(); i++) {
-            if(count == 0) {
-                 res = nums[i];
-                 count++;
-            }
+//         int count = 0;
+//         int res;
+//         for(int i =0; i< nums.size(); i++) {
+//             if(count == 0) {
+//                  res = nums[i];
+//                  count++;
+//             }
                
-        
-            else if(nums[i] ==res)
-                count++;
-            else
-                count--;
+//             else if(nums[i] ==res)
+//                 count++;
+//             else
+//                 count--;
             
+//         }
+//         return res;
+        
+           int count = 0;
+        int candidate = 0;
+        
+        for (int num : nums) {
+            if (count == 0) {
+                candidate = num;
+            }
+            
+            if (num == candidate) {
+                count++;
+            } else {
+                count--;
+            }
         }
-        return res;
+        
+        return candidate;
     } 
 };
