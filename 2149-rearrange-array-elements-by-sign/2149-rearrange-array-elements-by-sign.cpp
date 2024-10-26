@@ -27,7 +27,10 @@ public:
 
 //         return finalResult;
         
+        
+        
 //         Approach 2:
+        
         vector<int> result(nums.size(), 0);
         int posIndex = 0;
         int negIndex = 1;
@@ -44,6 +47,7 @@ public:
         }
         
         return result;
+    
 
     }
 };
