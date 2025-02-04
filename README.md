@@ -3,15 +3,3 @@
 This repo contains leetcode problems solved by me and how i have used naive approach and solved the problem and later on imporved on those problem to find the optimal solution.
 
 
-
-<!---LeetCode Topics Start-->
-# LeetCode Topics
-## Linked List
-|  |
-| ------- |
-| [0908-middle-of-the-linked-list](https://github.com/kashyap-shubham/Leetcode-Problems/tree/master/0908-middle-of-the-linked-list) |
-## Two Pointers
-|  |
-| ------- |
-| [0908-middle-of-the-linked-list](https://github.com/kashyap-shubham/Leetcode-Problems/tree/master/0908-middle-of-the-linked-list) |
-<!---LeetCode Topics End-->
