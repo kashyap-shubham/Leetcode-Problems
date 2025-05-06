@@ -1,4 +1,5 @@
 Naive apprach is just to swap every non zero elemts to zero while all zero goes to last
+
 ​
 **Optimal solution :**
 ​
